@@ -1,0 +1,18 @@
+{
+  "name": "nodetest",
+  "version": "1.0.0",
+  "description": "Technical Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sergio Rodriguez Garcia",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "engines": {
+		"node": "^6.9.1",
+		"npm": "^3.9.5"
+	}
+}
