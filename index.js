@@ -18,7 +18,7 @@ if (!fs.existsSync(file))
 let basket = fs.readFileSync(file, { encoding: 'utf8' });
 
 // Split lines into strings
-basket = basket.split('\r\n'); // NOTE: Depends on line feed
+basket = basket.split('\n'); // NOTE: Depends on line feed, change to ('\r\n') if using Windows Line Endings
 
 // Trim elements
 basket = basket.map(function (x) {
